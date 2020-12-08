@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="css/demo.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link href="css/loading.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container" id="caixaCapturarFotos">
+        <div class="row">
+            <div class="text-center py-4 mt-3 botoes">
+                <button class="btn btn-default invisible" id="btnCadastrar" type="button">Capturar Imagem</button>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- camera -->
+                    <div id="divCamera">
+                    </div>
+                </div>
+                <div id="divImagensCadastro">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="" id="divModalGenerica">
+
+    </div>
+
+
+    <script src="js/WebConfig/WebConfig.js"></script>
+    <script src="js/deteccaoDeRosto/detectarFaceAutenticacao.js"></script>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+    <script src="js/controller/controller.js"></script>
+    <script src="js/views/camera.js"></script>
+    <script src="js/views/modal.js"></script>
+
+    <script>
+        let controller = new Controller();
+    </script>
+
+    <script src="js/tracking/tracking-min.js"></script>
+    <script src="js/build/face-min.js"></script>
+    <script src="js/mascaraCpf/mascaraCpf.js"></script>
+    <script src="js/token/token.js"></script>
+
+    <script src="js/abrindoCamera/abrirCamera.js"></script>
+    <script src="js/enviandoParaApi/EnviandoParaApiAutenticacao.js"></script>
+
+</body>
+
+</html>

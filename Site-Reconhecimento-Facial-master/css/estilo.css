@@ -1,0 +1,106 @@
+body {
+    background: url('../img/backgroundFundo.png') !important;
+    width: 100% !important;
+    margin-top: 30px !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.iconeSucesso {
+    color: green !important;
+    font-size: 45px !important;
+}
+
+#logoRosto {
+    border: 2px solid red !important;
+}
+
+.iconeInsucesso {
+    color: red !important;
+    font-size: 45px !important;
+}
+
+#btnOK {
+    background-color: green !important;
+    color: white !important;
+    font-weight: bold !important;
+    border: 2px solid green !important;
+}
+
+#btnOK:hover {
+    background-color: white !important;
+    color: green !important;
+    font-weight: bold !important;
+    border: 2px solid green !important;
+}
+
+#btnTentarNovamente {
+    background-color: red !important;
+    color: white !important;
+    font-weight: bold !important;
+    border: 2px solid red !important;
+}
+
+#btnTentarNovamente:hover {
+    background-color: white !important;
+    color: red !important;
+    font-weight: bold !important;
+    border: 2px solid red !important;
+}
+
+.bordaErro {
+    border: 2px solid red !important;
+}
+
+.estiloCanvas {
+    width: 50px !important;
+}
+
+#valorCpf {
+    width: 300px !important;
+    border-radius: 5px !important;
+}
+
+#cameraCadastro {
+    width: 70% !important;
+    height: 350px !important;
+    position: relative !important;
+    top: -20px !important;
+}
+
+#caixaCapturarFotos {
+    margin-top: -20px !important;
+    border-radius: 10px !important;
+    height: 600px !important;
+}
+
+.invisivel {
+    display: none !important;
+}
+
+.btn {
+    border-radius: 10px !important;
+    min-width: 200px;
+    padding: 10px !important;
+    color: #ffffff;
+    text-transform: uppercase;
+    /*height: 48px !important;*/
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.container {
+    background-color: #ffffff !important;
+}
+
+#tituloCapturarImagem {
+    margin-top: -50px !important;
+}
+
+#btnAbrirModalPermissao {
+    display: none !important;
+}
+
+#iconeCamera {
+    color: gray !important;
+    font-size: 45px !important;
+}
